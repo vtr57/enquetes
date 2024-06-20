@@ -14,8 +14,6 @@ import os
 import secrets
 from pathlib import Path
 
-import dj_database_url
-
 env = environ.Env(
     # set casting, default value
     DEBUG=(bool, False)
