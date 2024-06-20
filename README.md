@@ -16,3 +16,5 @@ DATABASE_URL=psql://user:password@127.0.0.1:5432/databasename
 ```
 
 E inclua no seu arquivo [settings](enquetes/mysite/mysite/settings.py) as configurações como consta neste projeto.
+
+Este procedimento torna a manipulação do variáveis de ambientes mais seguros.
