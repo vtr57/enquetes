@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    {% load static %}
 </head>
 <body>
+    <img src="{% static 'polls/example.png' %}" alt="My image">
     {% if latest_question_list %}
         <ul>
         {% for question in latest_question_list %}
