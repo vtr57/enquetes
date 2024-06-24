@@ -162,4 +162,4 @@ cython_debug/
 #.idea/
 
 # static files
-mysite/static
+mysite/static/
